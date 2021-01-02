@@ -6,6 +6,15 @@
   cursor: pointer;
 }
 
+.collapsible:after {
+  content: '\002B';
+  float: right;
+}
+
+.active:after {
+  content: '\2212';
+}
+
 .content {
   max-height: 0px;
   overflow: hidden;
