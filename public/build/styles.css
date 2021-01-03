@@ -23,3 +23,8 @@
   -o-transition: max-height 0.2s ease-out;
   transition: max-height 0.2s ease-out;
 }
+
+.filter {
+  filter: invert(74%) sepia(15%) saturate(212%) hue-rotate(179deg)
+    brightness(84%) contrast(92%);
+}
